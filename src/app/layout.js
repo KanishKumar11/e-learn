@@ -1,15 +1,4 @@
 import "../styles/globals.css";
-import {
-  Inter as Sans,
-  Bitter as Serif,
-  Fira_Code as Mono,
-  League_Spartan,
-} from "@next/font/google";
-
-const legu = League_Spartan({
-  subsets: ["latin"],
-  variable: "--leg",
-});
 
 const RootLayout = ({ children }) => (
   <html lang="en">
